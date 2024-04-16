@@ -6,6 +6,7 @@
     width: 100%;
     height: 750px;
 }
+
 .navbar-nav li a{
     color: #fff;
     font-family:  "Gentium Book Plus", serif;
@@ -14,6 +15,9 @@
 }
 .navbar-nav li a i{
     color: #dab33e;
+}
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%255, 37, 41, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 .hero-section h1{
     margin-top: 40px;
@@ -149,4 +153,157 @@
 }
 .description{
     margin-top: 10px;
+}
+/* revew section */
+.review-area{
+    padding-top: 150px;
+    background-image: url(Images/section-bg2.jpg);
+    height: 768px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.box-2{
+    margin-left: 370px;
+   justify-content: center;
+   display: flex;
+   align-items: center;
+   border: 1px solid;
+   height: 450px;
+   width: 570px;
+   background-color: black;
+   opacity: 0.6;
+}
+.review-text{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+.review-heading{
+    text-align: center;
+    font-family: "Yeseva One", serif;
+    font-size: 28pt;
+    margin-top: 50px;
+    color: #fff;
+}
+.paragraph{
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+}
+
+/* Reservation  */
+.reservation-content{
+    display: flex;
+    gap: 100px;
+    margin-top: 50px;
+    
+}
+.reservation-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.image {
+    display: flex;
+    gap: 50px;
+}
+.reservation-text .p-text{
+    text-align: center;
+}
+
+.form{
+   
+    width: 570px;
+    height: 220px;
+}
+.form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.form .user-details .input-box{
+    width: 250px;
+}
+.user-details .input-box input{
+    height: 50px;
+    width: 100%;
+    border: 1px solid #dab33e;
+}
+ .btn-3{
+    width: 200px;
+    height: 35px;
+    background-color: #dab33e;
+    color: #fff;
+    outline: none;
+    border: none;
+    position: absolute;
+    margin-top: 470px;
+
+}
+
+/* Footer */
+.footer{
+    background: #000000;
+    color: #fff;
+}
+.footer-section h3{
+    font-family: "Yeseva One", serif;
+}
+.footer-section p{
+    font-family: "Lato", sans-serif;
+    
+}
+.footer-section .about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.footer-section .about-us p{
+    text-align: center;
+    margin-top: 20px;
+}
+.footer-section .about-us img{
+    margin-top: 20px;
+}
+.footer-section .opening {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-section .opening p{
+    text-align: center;
+    margin-top: 20px;
+}
+.footer-section .opening  img{
+    margin-top: 20px;
+}
+
+.footer-section .our-location{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-section .our-location img{
+    margin-top: 20px;
+}
+.footer-section .our-location P{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.icon i{
+    font-size: 30px;
+    
+}
+.footer-section{
+    margin-top: 100px;
+    display: flex;
+    gap: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
